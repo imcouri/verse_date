@@ -142,8 +142,6 @@ date_data := class:
     IsAfter(OtherDate:date_data)<decides><transacts>:void=
         Self.ToEpochSeconds() > OtherDate.ToEpochSeconds()
 
-    # Format the date as a string (YYYY-MM-DD HH:MM:SS)
-
 
     # Get the day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
     DayOfWeek()<decides><transacts>:int=
