@@ -1,3 +1,10 @@
+#V1.0 - See date_v2.verse for helper functions + improvements
+
+<#
+        !TEST BEFORE USING IN LIVE PROJECTS!
+        Created by Couri (https://x.com/fncouri)
+#>
+
 date_data := class:
     # Default values for the date (January 1, 1970, 00:00:00)
     Year : int = 1970
